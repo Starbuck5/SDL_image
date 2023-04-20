@@ -148,7 +148,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: sdl-image-artifact
-        path: ${{ env.SDL2_image_DIR }}/
+        path: ${{ github.workspace }}/prefix_cmake
 
     - name: Configure (Autotools)
       if: "! matrix.platform.cmake"
