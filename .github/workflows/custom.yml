@@ -1,6 +1,6 @@
 name: Custom
 
-on: [workflow_dispatch]
+on: [push]
 
 jobs:
   Build:
